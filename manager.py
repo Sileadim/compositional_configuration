@@ -34,8 +34,11 @@ class Producer(DefaultInitializer):
         parser.add_argument("--end", type=int, default=10, help="End of sequence")
         return parser
 
+    """ This makes the object callable: You can use it like this:
+        producer = Producer(cfg)
+        results = producer()
+    """
     def __call__(self):
-
         return list(range(self.cfg.start, self.cfg.end))
 
 
