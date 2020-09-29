@@ -1,5 +1,5 @@
 from jsonargparse import ArgumentParser, ActionParser
-from default_initalizer import DefaultInitializer
+from default_initializer import DefaultInitializer
 from producer import Producer
 from transformer import Transformer
 
