@@ -1,5 +1,4 @@
 from jsonargparse import ArgumentParser, ActionParser
-from abc import abstractmethod
 from default_initalizer import DefaultInitializer
 from producer import Producer
 from transformer import Transformer

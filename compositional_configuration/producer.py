@@ -1,4 +1,4 @@
-from jsonargparse import ArgumentParser, ActionParser
+from jsonargparse import ArgumentParser
 from default_initalizer import DefaultInitializer
 
 
